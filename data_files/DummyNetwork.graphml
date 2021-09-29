@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="canonicalName" attr.type="string" for="node" id="canonicalName"/>
+    <key attr.name="type" attr.type="string" for="node" id="type"/>
+    <key attr.name="organism" attr.type="string" for="node" id="organism"/>
+    <key attr.name="NCBI_tax_id" attr.type="int" for="node" id="NCBI_tax_id"/>
+    <key attr.name="species_specific_protein_ids" attr.type="string" for="node" id="species_specific_protein_ids"/>
+    <key attr.name="Uniprot" attr.type="string" for="node" id="Uniprot"/>
+    <key attr.name="GeneID" attr.type="string" for="node" id="GeneID"/>
+    <key attr.name="short name" attr.type="string" for="node" id="short name"/>
+    <key attr.name="pathway_string" attr.type="string" for="node" id="pathway_string"/>
+    <key attr.name="pathway_list" attr.type="string" for="node" id="pathway_list"/>
+    <key attr.name="topology_string" attr.type="string" for="node" id="topology_string"/>
+    <key attr.name="topology_list" attr.type="string" for="node" id="topology_list"/>
+    <key attr.name="HumanGeneSymbol" attr.type="string" for="node" id="HumanGeneSymbol"/>
+    <key attr.name="Ensembl" attr.type="string" for="node" id="Ensembl"/>
+    <key attr.name="Expression1" attr.type="double" for="node" id="Expression1"/>
+    <key attr.name="Expression2" attr.type="double" for="node" id="Expression2"/>
+    <key attr.name="Expression3" attr.type="double" for="node" id="Expression3"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="canonicalName" attr.type="string" for="edge" id="canonicalName"/>
+    <key attr.name="effect" attr.type="string" for="edge" id="effect"/>
+    <key attr.name="directness" attr.type="string" for="edge" id="directness"/>
+    <key attr.name="direction" attr.type="string" for="edge" id="direction"/>
+    <key attr.name="layer" attr.type="string" for="edge" id="layer"/>
+    <key attr.name="interaction_type" attr.type="string" for="edge" id="interaction_type"/>
+    <key attr.name="source" attr.type="string" for="edge" id="source"/>
+    <key attr.name="reference" attr.type="string" for="edge" id="reference"/>
+    <key attr.name="PRINCESS_score" attr.type="double" for="edge" id="PRINCESS_score"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <key attr.name="networkMetadata" attr.type="string" for="graph" id="networkMetadata"/>
+    <graph edgedefault="directed" id="DummyNetwork">
+        <node id="110">
+            <data key="SUID">110</data>
+            <data key="shared name">PAK1</data>
+            <data key="name">PAK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PAK1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000149269]</data>
+            <data key="Uniprot">Q13153</data>
+            <data key="GeneID">5058</data>
+            <data key="short name">PAK1</data>
+            <data key="pathway_string">RTK(core)</data>
+            <data key="pathway_list">[RTK(core)]</data>
+            <data key="topology_string">Mediator,Co-factor,Scaffold</data>
+            <data key="topology_list">[Mediator, Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-5.856</data>
+            <data key="Expression2">-5.856</data>
+            <data key="Expression3">-3.904</data>
+        </node>
+        <node id="109">
+            <data key="SUID">109</data>
+            <data key="shared name">NCK1</data>
+            <data key="name">NCK1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">NCK1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000158092]</data>
+            <data key="Uniprot">P16333</data>
+            <data key="GeneID">4690</data>
+            <data key="short name">NCK1</data>
+            <data key="pathway_string">RTK(non-core)</data>
+            <data key="pathway_list">[RTK(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-0.976</data>
+            <data key="Expression2">0.0</data>
+            <data key="Expression3">-0.976</data>
+        </node>
+        <node id="108">
+            <data key="SUID">108</data>
+            <data key="shared name">CDC42</data>
+            <data key="name">CDC42</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CDC42</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000070831, ENSRNOG00000013536]</data>
+            <data key="Uniprot">P60953</data>
+            <data key="GeneID">998</data>
+            <data key="short name">CDC42</data>
+            <data key="pathway_string">RTK(core),TGF(non-core)</data>
+            <data key="pathway_list">[RTK(core), TGF(non-core)]</data>
+            <data key="topology_string">Mediator,Endocytosis related </data>
+            <data key="topology_list">[Mediator, Endocytosis related ]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-3.904</data>
+            <data key="Expression2">-2.928</data>
+            <data key="Expression3">-5.856</data>
+        </node>
+        <node id="107">
+            <data key="SUID">107</data>
+            <data key="shared name">JUN</data>
+            <data key="name">JUN</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">JUN</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000177606]</data>
+            <data key="Uniprot">P05412</data>
+            <data key="GeneID">3725</data>
+            <data key="short name">JUN</data>
+            <data key="pathway_string">RTK(core),WNT/Wingless(core)</data>
+            <data key="pathway_list">[RTK(core), WNT/Wingless(core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-1.952</data>
+            <data key="Expression2">-4.88</data>
+            <data key="Expression3">-1.952</data>
+        </node>
+        <node id="106">
+            <data key="SUID">106</data>
+            <data key="shared name">APC2</data>
+            <data key="name">APC2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">APC2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000115266]</data>
+            <data key="Uniprot">O95996</data>
+            <data key="GeneID">10297</data>
+            <data key="short name">APC2</data>
+            <data key="pathway_string">WNT/Wingless(core)</data>
+            <data key="pathway_list">[WNT/Wingless(core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">4.88</data>
+            <data key="Expression2">5.856</data>
+            <data key="Expression3">2.928</data>
+        </node>
+        <node id="105">
+            <data key="SUID">105</data>
+            <data key="shared name">PAK1IP1</data>
+            <data key="name">PAK1IP1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PAK1IP1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000111845]</data>
+            <data key="Uniprot">Q9NWT1</data>
+            <data key="GeneID">55003</data>
+            <data key="short name">PAK1IP1</data>
+            <data key="pathway_string">RTK(non-core)</data>
+            <data key="pathway_list">[RTK(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.976</data>
+            <data key="Expression2">3.904</data>
+            <data key="Expression3">1.952</data>
+        </node>
+        <node id="104">
+            <data key="SUID">104</data>
+            <data key="shared name">MYC</data>
+            <data key="name">MYC</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">MYC</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000136997]</data>
+            <data key="Uniprot">P01106</data>
+            <data key="GeneID">4609</data>
+            <data key="short name">MYC</data>
+            <data key="pathway_string">RTK(core),TGF(core)</data>
+            <data key="pathway_list">[RTK(core), TGF(core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-5.856</data>
+            <data key="Expression2">0.0</data>
+            <data key="Expression3">-1.952</data>
+        </node>
+        <node id="102">
+            <data key="SUID">102</data>
+            <data key="shared name">SMAD7</data>
+            <data key="name">SMAD7</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD7</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000101665]</data>
+            <data key="Uniprot">O15105</data>
+            <data key="GeneID">4092</data>
+            <data key="short name">SMAD7</data>
+            <data key="pathway_string">RTK(non-core),TGF(core)</data>
+            <data key="pathway_list">[RTK(non-core), TGF(core)]</data>
+            <data key="topology_string">Co-factor,Transcription factor</data>
+            <data key="topology_list">[Co-factor, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">4.88</data>
+            <data key="Expression2">-3.904</data>
+            <data key="Expression3">2.928</data>
+        </node>
+        <node id="101">
+            <data key="SUID">101</data>
+            <data key="shared name">SMAD6</data>
+            <data key="name">SMAD6</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD6</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000137834]</data>
+            <data key="Uniprot">O43541</data>
+            <data key="GeneID">4091</data>
+            <data key="short name">SMAD6</data>
+            <data key="pathway_string">RTK(non-core),TGF(non-core)</data>
+            <data key="pathway_list">[RTK(non-core), TGF(non-core)]</data>
+            <data key="topology_string">Mediator,Transcription factor</data>
+            <data key="topology_list">[Mediator, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.0</data>
+            <data key="Expression2">-2.928</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="100">
+            <data key="SUID">100</data>
+            <data key="shared name">BTRC</data>
+            <data key="name">BTRC</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">BTRC</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000166167]</data>
+            <data key="Uniprot">Q9Y297</data>
+            <data key="GeneID">8945</data>
+            <data key="short name">BTRC</data>
+            <data key="pathway_string">Hedgehog(non-core),WNT/Wingless(non-core)</data>
+            <data key="pathway_list">[Hedgehog(non-core), WNT/Wingless(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related </data>
+            <data key="topology_list">[Co-factor, Endocytosis related ]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">0.0</data>
+            <data key="Expression3">2.928</data>
+        </node>
+        <node id="99">
+            <data key="SUID">99</data>
+            <data key="shared name">HIPK2</data>
+            <data key="name">HIPK2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">HIPK2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000064393]</data>
+            <data key="Uniprot">Q9H2X6</data>
+            <data key="GeneID">28996</data>
+            <data key="short name">HIPK2</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.976</data>
+            <data key="Expression2">5.856</data>
+            <data key="Expression3">-4.88</data>
+        </node>
+        <node id="98">
+            <data key="SUID">98</data>
+            <data key="shared name">FBXW11</data>
+            <data key="name">FBXW11</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">FBXW11</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000072803]</data>
+            <data key="Uniprot">Q9UKB1</data>
+            <data key="GeneID">23291</data>
+            <data key="short name">FBXW11</data>
+            <data key="pathway_string">TGF(non-core),WNT/Wingless(non-core)</data>
+            <data key="pathway_list">[TGF(non-core), WNT/Wingless(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related </data>
+            <data key="topology_list">[Co-factor, Endocytosis related ]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">1.952</data>
+            <data key="Expression2">-5.856</data>
+            <data key="Expression3">-0.976</data>
+        </node>
+        <node id="97">
+            <data key="SUID">97</data>
+            <data key="shared name">SMAD3</data>
+            <data key="name">SMAD3</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD3</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000166949]</data>
+            <data key="Uniprot">P84022</data>
+            <data key="GeneID">4088</data>
+            <data key="short name">SMAD3</data>
+            <data key="pathway_string">RTK(core),NHR(core),TGF(core),WNT/Wingless(non-core),WNT/Wingless(core)</data>
+            <data key="pathway_list">[RTK(core), NHR(core), TGF(core), WNT/Wingless(non-core), WNT/Wingless(core)]</data>
+            <data key="topology_string">Mediator,Transcription factor</data>
+            <data key="topology_list">[Mediator, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-4.88</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">0.976</data>
+        </node>
+        <node id="96">
+            <data key="SUID">96</data>
+            <data key="shared name">ACVRL1</data>
+            <data key="name">ACVRL1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ACVRL1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000139567]</data>
+            <data key="Uniprot">P37023</data>
+            <data key="GeneID">94</data>
+            <data key="short name">ACVRL1</data>
+            <data key="pathway_string">TGF(core)</data>
+            <data key="pathway_list">[TGF(core)]</data>
+            <data key="topology_string">Receptor</data>
+            <data key="topology_list">[Receptor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-1.952</data>
+            <data key="Expression2">5.856</data>
+            <data key="Expression3">-4.88</data>
+        </node>
+        <node id="95">
+            <data key="SUID">95</data>
+            <data key="shared name">SMAD2</data>
+            <data key="name">SMAD2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000175387]</data>
+            <data key="Uniprot">Q15796</data>
+            <data key="GeneID">4087</data>
+            <data key="short name">SMAD2</data>
+            <data key="pathway_string">RTK(core),TGF(core),WNT/Wingless(core)</data>
+            <data key="pathway_list">[RTK(core), TGF(core), WNT/Wingless(core)]</data>
+            <data key="topology_string">Mediator,Transcription factor</data>
+            <data key="topology_list">[Mediator, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-5.856</data>
+            <data key="Expression2">-1.952</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="94">
+            <data key="SUID">94</data>
+            <data key="shared name">SMAD1</data>
+            <data key="name">SMAD1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000170365]</data>
+            <data key="Uniprot">Q15797</data>
+            <data key="GeneID">4086</data>
+            <data key="short name">SMAD1</data>
+            <data key="pathway_string">TGF(core)</data>
+            <data key="pathway_list">[TGF(core)]</data>
+            <data key="topology_string">Mediator,Transcription factor</data>
+            <data key="topology_list">[Mediator, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.976</data>
+            <data key="Expression2">-4.88</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="93">
+            <data key="SUID">93</data>
+            <data key="shared name">HGS</data>
+            <data key="name">HGS</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">HGS</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000185359]</data>
+            <data key="Uniprot">O14964</data>
+            <data key="GeneID">9146</data>
+            <data key="short name">HGS</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related ,Scaffold</data>
+            <data key="topology_list">[Co-factor, Endocytosis related , Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">-2.928</data>
+            <data key="Expression3">-5.856</data>
+        </node>
+        <node id="92">
+            <data key="SUID">92</data>
+            <data key="shared name">PPM1A</data>
+            <data key="name">PPM1A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PPM1A</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000100614]</data>
+            <data key="Uniprot">P35813</data>
+            <data key="GeneID">5494</data>
+            <data key="short name">PPM1A</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">2.928</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">-3.904</data>
+        </node>
+        <node id="91">
+            <data key="SUID">91</data>
+            <data key="shared name">ZFYVE9</data>
+            <data key="name">ZFYVE9</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ZFYVE9</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000157077]</data>
+            <data key="Uniprot">O95405</data>
+            <data key="GeneID">9372</data>
+            <data key="short name">ZFYVE9</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">-3.904</data>
+        </node>
+        <node id="89">
+            <data key="SUID">89</data>
+            <data key="shared name">TGFBR1</data>
+            <data key="name">TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TGFBR1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000106799]</data>
+            <data key="Uniprot">P36897</data>
+            <data key="GeneID">7046</data>
+            <data key="short name">TGFBR1</data>
+            <data key="pathway_string">RTK(core),TGF(core)</data>
+            <data key="pathway_list">[RTK(core), TGF(core)]</data>
+            <data key="topology_string">Receptor,Endocytosis related ,Scaffold</data>
+            <data key="topology_list">[Receptor, Endocytosis related , Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">-3.904</data>
+            <data key="Expression3">4.88</data>
+        </node>
+        <node id="88">
+            <data key="SUID">88</data>
+            <data key="shared name">ESR1</data>
+            <data key="name">ESR1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ESR1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000091831]</data>
+            <data key="Uniprot">P03372</data>
+            <data key="GeneID">2099</data>
+            <data key="short name">ESR1</data>
+            <data key="pathway_string">NHR(core),TGF(non-core)</data>
+            <data key="pathway_list">[NHR(core), TGF(non-core)]</data>
+            <data key="topology_string">Receptor,Transcription factor</data>
+            <data key="topology_list">[Receptor, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">4.88</data>
+            <data key="Expression2">-1.952</data>
+            <data key="Expression3">2.928</data>
+        </node>
+        <node id="87">
+            <data key="SUID">87</data>
+            <data key="shared name">PAK2</data>
+            <data key="name">PAK2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PAK2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000180370]</data>
+            <data key="Uniprot">Q13177</data>
+            <data key="GeneID">5062</data>
+            <data key="short name">PAK2</data>
+            <data key="pathway_string">RTK(core)</data>
+            <data key="pathway_list">[RTK(core)]</data>
+            <data key="topology_string">Mediator,Co-factor,Scaffold</data>
+            <data key="topology_list">[Mediator, Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.0</data>
+            <data key="Expression2">-4.88</data>
+            <data key="Expression3">1.952</data>
+        </node>
+        <node id="86">
+            <data key="SUID">86</data>
+            <data key="shared name">KAT2A</data>
+            <data key="name">KAT2A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">KAT2A</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000108773]</data>
+            <data key="Uniprot">Q92830</data>
+            <data key="GeneID">2648</data>
+            <data key="short name">KAT2A</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Transcription factor</data>
+            <data key="topology_list">[Co-factor, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.0</data>
+            <data key="Expression2">4.88</data>
+            <data key="Expression3">0.0</data>
+        </node>
+        <node id="85">
+            <data key="SUID">85</data>
+            <data key="shared name">LEF1</data>
+            <data key="name">LEF1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">LEF1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000138795]</data>
+            <data key="Uniprot">Q9UJU2</data>
+            <data key="GeneID">51176</data>
+            <data key="short name">LEF1</data>
+            <data key="pathway_string">WNT/Wingless(core)</data>
+            <data key="pathway_list">[WNT/Wingless(core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">1.952</data>
+            <data key="Expression2">3.904</data>
+            <data key="Expression3">4.88</data>
+        </node>
+        <node id="84">
+            <data key="SUID">84</data>
+            <data key="shared name">ITSN1</data>
+            <data key="name">ITSN1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">ITSN1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000205726]</data>
+            <data key="Uniprot">Q15811</data>
+            <data key="GeneID">6453</data>
+            <data key="short name">ITSN1</data>
+            <data key="pathway_string">RTK(non-core)</data>
+            <data key="pathway_list">[RTK(non-core)]</data>
+            <data key="topology_string">Co-factor,Mediator</data>
+            <data key="topology_list">[Co-factor, Mediator]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-4.88</data>
+            <data key="Expression2">-4.88</data>
+            <data key="Expression3">1.952</data>
+        </node>
+        <node id="83">
+            <data key="SUID">83</data>
+            <data key="shared name">EP300</data>
+            <data key="name">EP300</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">EP300</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000100393]</data>
+            <data key="Uniprot">Q09472</data>
+            <data key="GeneID"/>
+            <data key="short name">EP300</data>
+            <data key="pathway_string">Notch(non-core)</data>
+            <data key="pathway_list">[Notch(non-core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol">P300</data>
+            <data key="Ensembl"/>
+            <data key="Expression1">3.904</data>
+            <data key="Expression2">-4.88</data>
+            <data key="Expression3">-5.856</data>
+        </node>
+        <node id="82">
+            <data key="SUID">82</data>
+            <data key="shared name">PPP1R15A</data>
+            <data key="name">PPP1R15A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PPP1R15A</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000087074]</data>
+            <data key="Uniprot">O75807</data>
+            <data key="GeneID">23645</data>
+            <data key="short name">PPP1R15A</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">3.904</data>
+            <data key="Expression2">-3.904</data>
+            <data key="Expression3">3.904</data>
+        </node>
+        <node id="81">
+            <data key="SUID">81</data>
+            <data key="shared name">PARD6A</data>
+            <data key="name">PARD6A</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PARD6A</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000102981]</data>
+            <data key="Uniprot">Q9NPB6</data>
+            <data key="GeneID">50855</data>
+            <data key="short name">PARD6A</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.976</data>
+            <data key="Expression2">4.88</data>
+            <data key="Expression3">0.976</data>
+        </node>
+        <node id="80">
+            <data key="SUID">80</data>
+            <data key="shared name">TCF4</data>
+            <data key="name">TCF4</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TCF4</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000196628]</data>
+            <data key="Uniprot">P15884</data>
+            <data key="GeneID">6925</data>
+            <data key="short name">TCF4</data>
+            <data key="pathway_string">WNT/Wingless(core)</data>
+            <data key="pathway_list">[WNT/Wingless(core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-4.88</data>
+            <data key="Expression2">3.904</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="79">
+            <data key="SUID">79</data>
+            <data key="shared name">EPHB1</data>
+            <data key="name">EPHB1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">EPHB1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000154928]</data>
+            <data key="Uniprot">P54762</data>
+            <data key="GeneID">2047</data>
+            <data key="short name">EPHB1</data>
+            <data key="pathway_string">RTK(core)</data>
+            <data key="pathway_list">[RTK(core)]</data>
+            <data key="topology_string">Receptor</data>
+            <data key="topology_list">[Receptor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">2.928</data>
+            <data key="Expression2">1.952</data>
+            <data key="Expression3">5.856</data>
+        </node>
+        <node id="78">
+            <data key="SUID">78</data>
+            <data key="shared name">CTNNB1</data>
+            <data key="name">CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CTNNB1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000168036]</data>
+            <data key="Uniprot">P35222</data>
+            <data key="GeneID">1499</data>
+            <data key="short name">CTNNB1</data>
+            <data key="pathway_string">TGF(non-core),WNT/Wingless(core)</data>
+            <data key="pathway_list">[TGF(non-core), WNT/Wingless(core)]</data>
+            <data key="topology_string">Mediator</data>
+            <data key="topology_list">[Mediator]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">1.952</data>
+            <data key="Expression2">4.88</data>
+            <data key="Expression3">-4.88</data>
+        </node>
+        <node id="77">
+            <data key="SUID">77</data>
+            <data key="shared name">BAMBI</data>
+            <data key="name">BAMBI</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">BAMBI</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000095739]</data>
+            <data key="Uniprot">Q13145</data>
+            <data key="GeneID">25805</data>
+            <data key="short name">BAMBI</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="76">
+            <data key="SUID">76</data>
+            <data key="shared name">SMAD5</data>
+            <data key="name">SMAD5</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMAD5</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000113658]</data>
+            <data key="Uniprot">Q99717</data>
+            <data key="GeneID">4090</data>
+            <data key="short name">SMAD5</data>
+            <data key="pathway_string">TGF(core)</data>
+            <data key="pathway_list">[TGF(core)]</data>
+            <data key="topology_string">Mediator,Transcription factor</data>
+            <data key="topology_list">[Mediator, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">4.88</data>
+            <data key="Expression2">2.928</data>
+            <data key="Expression3">0.976</data>
+        </node>
+        <node id="74">
+            <data key="SUID">74</data>
+            <data key="shared name">PML</data>
+            <data key="name">PML</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PML</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000140464]</data>
+            <data key="Uniprot">P29590</data>
+            <data key="GeneID">5371</data>
+            <data key="short name">PML</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">4.88</data>
+            <data key="Expression2">-2.928</data>
+            <data key="Expression3">4.88</data>
+        </node>
+        <node id="73">
+            <data key="SUID">73</data>
+            <data key="shared name">UCHL5</data>
+            <data key="name">UCHL5</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">UCHL5</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000116750]</data>
+            <data key="Uniprot">Q9Y5K5</data>
+            <data key="GeneID">51377</data>
+            <data key="short name">UCHL5</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">5.856</data>
+            <data key="Expression2">-0.976</data>
+            <data key="Expression3">1.952</data>
+        </node>
+        <node id="72">
+            <data key="SUID">72</data>
+            <data key="shared name">TAB2</data>
+            <data key="name">TAB2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TAB2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000055208]</data>
+            <data key="Uniprot">Q9NYJ8</data>
+            <data key="GeneID">23118</data>
+            <data key="short name">TAB2</data>
+            <data key="pathway_string">RTK(non-core)</data>
+            <data key="pathway_list">[RTK(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-2.928</data>
+            <data key="Expression2">-5.856</data>
+            <data key="Expression3">-4.88</data>
+        </node>
+        <node id="71">
+            <data key="SUID">71</data>
+            <data key="shared name">PELI1</data>
+            <data key="name">PELI1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PELI1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000197329]</data>
+            <data key="Uniprot">Q96FA3</data>
+            <data key="GeneID">57162</data>
+            <data key="short name">PELI1</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Mediator</data>
+            <data key="topology_list">[Co-factor, Mediator]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">0.976</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">-3.904</data>
+        </node>
+        <node id="70">
+            <data key="SUID">70</data>
+            <data key="shared name">TAB1</data>
+            <data key="name">TAB1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">TAB1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000100324]</data>
+            <data key="Uniprot">Q15750</data>
+            <data key="GeneID">10454</data>
+            <data key="short name">TAB1</data>
+            <data key="pathway_string">RTK(non-core)</data>
+            <data key="pathway_list">[RTK(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-5.856</data>
+            <data key="Expression2">-1.952</data>
+            <data key="Expression3">-1.952</data>
+        </node>
+        <node id="69">
+            <data key="SUID">69</data>
+            <data key="shared name">SMURF2</data>
+            <data key="name">SMURF2</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMURF2</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000108854]</data>
+            <data key="Uniprot">Q9HAU4</data>
+            <data key="GeneID">64750</data>
+            <data key="short name">SMURF2</data>
+            <data key="pathway_string">TGF(non-core),WNT/Wingless(non-core)</data>
+            <data key="pathway_list">[TGF(non-core), WNT/Wingless(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related ,Scaffold</data>
+            <data key="topology_list">[Co-factor, Endocytosis related , Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-4.88</data>
+            <data key="Expression2">-5.856</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="67">
+            <data key="SUID">67</data>
+            <data key="shared name">RNF111</data>
+            <data key="name">RNF111</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">RNF111</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000157450]</data>
+            <data key="Uniprot">Q6ZNA4</data>
+            <data key="GeneID">54778</data>
+            <data key="short name">RNF111</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related </data>
+            <data key="topology_list">[Co-factor, Endocytosis related ]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-1.952</data>
+            <data key="Expression2">-2.928</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="66">
+            <data key="SUID">66</data>
+            <data key="shared name">FOXO4</data>
+            <data key="name">FOXO4</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">FOXO4</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000184481]</data>
+            <data key="Uniprot">P98177</data>
+            <data key="GeneID"/>
+            <data key="short name">FOXO4</data>
+            <data key="pathway_string">RTK(core)</data>
+            <data key="pathway_list">[RTK(core)]</data>
+            <data key="topology_string">Transcription factor</data>
+            <data key="topology_list">[Transcription factor]</data>
+            <data key="HumanGeneSymbol">FOXO4</data>
+            <data key="Ensembl"/>
+            <data key="Expression1">-0.976</data>
+            <data key="Expression2">4.88</data>
+            <data key="Expression3">0.0</data>
+        </node>
+        <node id="65">
+            <data key="SUID">65</data>
+            <data key="shared name">RANBP3</data>
+            <data key="name">RANBP3</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">RANBP3</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000031823]</data>
+            <data key="Uniprot">Q9H6Z4</data>
+            <data key="GeneID">8498</data>
+            <data key="short name">RANBP3</data>
+            <data key="pathway_string">WNT/Wingless(non-core)</data>
+            <data key="pathway_list">[WNT/Wingless(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-0.976</data>
+            <data key="Expression2">-3.904</data>
+            <data key="Expression3">-5.856</data>
+        </node>
+        <node id="64">
+            <data key="SUID">64</data>
+            <data key="shared name">PPP2CA</data>
+            <data key="name">PPP2CA</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">PPP2CA</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000113575]</data>
+            <data key="Uniprot">P67775</data>
+            <data key="GeneID">5515</data>
+            <data key="short name">PPP2CA</data>
+            <data key="pathway_string">WNT/Wingless(non-core)</data>
+            <data key="pathway_list">[WNT/Wingless(non-core)]</data>
+            <data key="topology_string">Co-factor,Scaffold</data>
+            <data key="topology_list">[Co-factor, Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">2.928</data>
+            <data key="Expression2">0.976</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="63">
+            <data key="SUID">63</data>
+            <data key="shared name">SIRT1</data>
+            <data key="name">SIRT1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SIRT1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000096717]</data>
+            <data key="Uniprot">Q96EB6</data>
+            <data key="GeneID">23411</data>
+            <data key="short name">SIRT1</data>
+            <data key="pathway_string">RTK(non-core),TGF(non-core)</data>
+            <data key="pathway_list">[RTK(non-core), TGF(non-core)]</data>
+            <data key="topology_string">Co-factor</data>
+            <data key="topology_list">[Co-factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">2.928</data>
+            <data key="Expression2">-0.976</data>
+            <data key="Expression3">-3.904</data>
+        </node>
+        <node id="62">
+            <data key="SUID">62</data>
+            <data key="shared name">CREB1</data>
+            <data key="name">CREB1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">CREB1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000118260]</data>
+            <data key="Uniprot">P16220</data>
+            <data key="GeneID">1385</data>
+            <data key="short name">CREB1</data>
+            <data key="pathway_string">RTK(core),TGF(core),WNT/Wingless(core)</data>
+            <data key="pathway_list">[RTK(core), TGF(core), WNT/Wingless(core)]</data>
+            <data key="topology_string">Co-factor,Transcription factor</data>
+            <data key="topology_list">[Co-factor, Transcription factor]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-1.952</data>
+            <data key="Expression2">-1.952</data>
+            <data key="Expression3">-2.928</data>
+        </node>
+        <node id="61">
+            <data key="SUID">61</data>
+            <data key="shared name">SMURF1</data>
+            <data key="name">SMURF1</data>
+            <data key="selected">false</data>
+            <data key="canonicalName">SMURF1</data>
+            <data key="type">protein</data>
+            <data key="organism">9606</data>
+            <data key="NCBI_tax_id">9606</data>
+            <data key="species_specific_protein_ids">[ENSG00000198742]</data>
+            <data key="Uniprot">Q9HCE7</data>
+            <data key="GeneID">57154</data>
+            <data key="short name">SMURF1</data>
+            <data key="pathway_string">TGF(non-core)</data>
+            <data key="pathway_list">[TGF(non-core)]</data>
+            <data key="topology_string">Co-factor,Endocytosis related ,Scaffold</data>
+            <data key="topology_list">[Co-factor, Endocytosis related , Scaffold]</data>
+            <data key="HumanGeneSymbol"/>
+            <data key="Ensembl"/>
+            <data key="Expression1">-1.2</data>
+            <data key="Expression2">-3.0</data>
+            <data key="Expression3">-1.0</data>
+        </node>
+        <edge source="110" target="109">
+            <data key="SUID">204</data>
+            <data key="shared name">PAK1 (stimulation) NCK1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PAK1 (stimulation) NCK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PAK1 (stimulation) NCK1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[8824201, 11157752, 10026169, 8824201]</data>
+        </edge>
+        <edge source="108" target="105">
+            <data key="SUID">203</data>
+            <data key="shared name">CDC42 (stimulation) PAK1IP1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CDC42 (stimulation) PAK1IP1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CDC42 (stimulation) PAK1IP1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11371639]</data>
+        </edge>
+        <edge source="108" target="110">
+            <data key="SUID">202</data>
+            <data key="shared name">CDC42 (stimulation) PAK1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CDC42 (stimulation) PAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CDC42 (stimulation) PAK1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[8107774, 12650940]</data>
+        </edge>
+        <edge source="108" target="87">
+            <data key="SUID">201</data>
+            <data key="shared name">CDC42 (stimulation) PAK2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CDC42 (stimulation) PAK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CDC42 (stimulation) PAK2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9823899, 10320322]</data>
+        </edge>
+        <edge source="107" target="80">
+            <data key="SUID">200</data>
+            <data key="shared name">JUN (stimulation) TCF4</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">JUN (stimulation) TCF4</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">JUN (stimulation) TCF4</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16007074, 16007074]</data>
+        </edge>
+        <edge source="106" target="78">
+            <data key="SUID">199</data>
+            <data key="shared name">APC2 (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">APC2 (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">APC2 (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[8638126, 9823329, 10021369, 9823329]</data>
+        </edge>
+        <edge source="105" target="110">
+            <data key="SUID">198</data>
+            <data key="shared name">PAK1IP1 (stimulation) PAK1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PAK1IP1 (stimulation) PAK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PAK1IP1 (stimulation) PAK1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[11371639, 11371639, 11371639]</data>
+        </edge>
+        <edge source="104" target="95">
+            <data key="SUID">197</data>
+            <data key="shared name">MYC (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">MYC (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">MYC (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11804592]</data>
+        </edge>
+        <edge source="104" target="97">
+            <data key="SUID">196</data>
+            <data key="shared name">MYC (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">MYC (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">MYC (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11804592]</data>
+        </edge>
+        <edge source="102" target="69">
+            <data key="SUID">194</data>
+            <data key="shared name">SMAD7 (stimulation) SMURF2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) SMURF2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) SMURF2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[11163210, 11163210, 18448069, 20937913, 20937913, 20937913]</data>
+        </edge>
+        <edge source="102" target="72">
+            <data key="SUID">193</data>
+            <data key="shared name">SMAD7 (stimulation) TAB2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) TAB2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) TAB2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17384642]</data>
+        </edge>
+        <edge source="102" target="70">
+            <data key="SUID">192</data>
+            <data key="shared name">SMAD7 (stimulation) TAB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) TAB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) TAB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11737269, 11737269]</data>
+        </edge>
+        <edge source="102" target="96">
+            <data key="SUID">191</data>
+            <data key="shared name">SMAD7 (stimulation) ACVRL1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) ACVRL1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) ACVRL1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12023024]</data>
+        </edge>
+        <edge source="102" target="82">
+            <data key="SUID">190</data>
+            <data key="shared name">SMAD7 (stimulation) PPP1R15A</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) PPP1R15A</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) PPP1R15A</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[14718519]</data>
+        </edge>
+        <edge source="102" target="89">
+            <data key="SUID">189</data>
+            <data key="shared name">SMAD7 (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[9215638, 14722617, 14657019, 17314099, 21791611, 9215638, 15148321]</data>
+        </edge>
+        <edge source="102" target="97">
+            <data key="SUID">188</data>
+            <data key="shared name">SMAD7 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9892110, 9892009]</data>
+        </edge>
+        <edge source="102" target="95">
+            <data key="SUID">187</data>
+            <data key="shared name">SMAD7 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD7 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD7 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[9892110, 9892009, 17438144]</data>
+        </edge>
+        <edge source="101" target="71">
+            <data key="SUID">186</data>
+            <data key="shared name">SMAD6 (stimulation) PELI1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) PELI1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) PELI1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[19352540]</data>
+        </edge>
+        <edge source="101" target="94">
+            <data key="SUID">185</data>
+            <data key="shared name">SMAD6 (stimulation) SMAD1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) SMAD1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[9335505, 9256479, 12857866, 11483516]</data>
+        </edge>
+        <edge source="101" target="95">
+            <data key="SUID">184</data>
+            <data key="shared name">SMAD6 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9892110, 9256479]</data>
+        </edge>
+        <edge source="101" target="97">
+            <data key="SUID">183</data>
+            <data key="shared name">SMAD6 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9892110]</data>
+        </edge>
+        <edge source="101" target="70">
+            <data key="SUID">182</data>
+            <data key="shared name">SMAD6 (stimulation) TAB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) TAB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) TAB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11737269, 11737269]</data>
+        </edge>
+        <edge source="101" target="89">
+            <data key="SUID">181</data>
+            <data key="shared name">SMAD6 (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD6 (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD6 (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9892110]</data>
+        </edge>
+        <edge source="100" target="78">
+            <data key="SUID">180</data>
+            <data key="shared name">BTRC (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">BTRC (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">BTRC (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[9461217, 16798748, 10228155, 10228155, 10074433, 9990852, 12114015, 11818547]</data>
+        </edge>
+        <edge source="99" target="94">
+            <data key="SUID">179</data>
+            <data key="shared name">HIPK2 (stimulation) SMAD1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">HIPK2 (stimulation) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">HIPK2 (stimulation) SMAD1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[12874272, 12874272, 12874272, 12874272]</data>
+        </edge>
+        <edge source="98" target="78">
+            <data key="SUID">178</data>
+            <data key="shared name">FBXW11 (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">FBXW11 (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">FBXW11 (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9784611]</data>
+        </edge>
+        <edge source="98" target="97">
+            <data key="SUID">177</data>
+            <data key="shared name">FBXW11 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">FBXW11 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">FBXW11 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11359933]</data>
+        </edge>
+        <edge source="97" target="85">
+            <data key="SUID">176</data>
+            <data key="shared name">SMAD3 (stimulation) LEF1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD3 (stimulation) LEF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD3 (stimulation) LEF1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[10890911, 10890911, 10890911, 10890911]</data>
+        </edge>
+        <edge source="97" target="107">
+            <data key="SUID">175</data>
+            <data key="shared name">SMAD3 (stimulation) JUN</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD3 (stimulation) JUN</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD3 (stimulation) JUN</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10220381, 9732876]</data>
+        </edge>
+        <edge source="97" target="88">
+            <data key="SUID">174</data>
+            <data key="shared name">SMAD3 (stimulation) ESR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD3 (stimulation) ESR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD3 (stimulation) ESR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11555647]</data>
+        </edge>
+        <edge source="96" target="94">
+            <data key="SUID">173</data>
+            <data key="shared name">ACVRL1 (stimulation) SMAD1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">ACVRL1 (stimulation) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">ACVRL1 (stimulation) SMAD1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9748228]</data>
+        </edge>
+        <edge source="95" target="62">
+            <data key="SUID">172</data>
+            <data key="shared name">SMAD2 (stimulation) CREB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD2 (stimulation) CREB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD2 (stimulation) CREB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9689110]</data>
+        </edge>
+        <edge source="95" target="85">
+            <data key="SUID">171</data>
+            <data key="shared name">SMAD2 (stimulation) LEF1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMAD2 (stimulation) LEF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMAD2 (stimulation) LEF1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10890911, 10890911, 10890911]</data>
+        </edge>
+        <edge source="95" target="69">
+            <data key="SUID">170</data>
+            <data key="shared name">SMAD2 (unknown) SMURF2</data>
+            <data key="shared interaction">unknown</data>
+            <data key="name">SMAD2 (unknown) SMURF2</data>
+            <data key="selected">false</data>
+            <data key="interaction">unknown</data>
+            <data key="canonicalName">SMAD2 (unknown) SMURF2</data>
+            <data key="effect">unknown</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[11389444, 11389444, 19122240, 19620243, 20937913]</data>
+        </edge>
+        <edge source="93" target="95">
+            <data key="SUID">169</data>
+            <data key="shared name">HGS (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">HGS (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">HGS (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11094085]</data>
+        </edge>
+        <edge source="93" target="91">
+            <data key="SUID">168</data>
+            <data key="shared name">HGS (stimulation) ZFYVE9</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">HGS (stimulation) ZFYVE9</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">HGS (stimulation) ZFYVE9</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11094085]</data>
+        </edge>
+        <edge source="92" target="95">
+            <data key="SUID">167</data>
+            <data key="shared name">PPM1A (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PPM1A (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PPM1A (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16751101, 16751101]</data>
+        </edge>
+        <edge source="92" target="94">
+            <data key="SUID">166</data>
+            <data key="shared name">PPM1A (stimulation) SMAD1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PPM1A (stimulation) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PPM1A (stimulation) SMAD1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16931515]</data>
+        </edge>
+        <edge source="92" target="97">
+            <data key="SUID">165</data>
+            <data key="shared name">PPM1A (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PPM1A (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PPM1A (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16751101, 16751101]</data>
+        </edge>
+        <edge source="91" target="89">
+            <data key="SUID">164</data>
+            <data key="shared name">ZFYVE9 (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">ZFYVE9 (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">ZFYVE9 (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12052882, 9865696]</data>
+        </edge>
+        <edge source="91" target="95">
+            <data key="SUID">163</data>
+            <data key="shared name">ZFYVE9 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">ZFYVE9 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">ZFYVE9 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11243848, 15356634, 9865696, 15231748, 18511908]</data>
+        </edge>
+        <edge source="89" target="95">
+            <data key="SUID">162</data>
+            <data key="shared name">TGFBR1 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[12957874, 18511908, 15350225, 9525694, 9892009, 9346908, 18511908]</data>
+        </edge>
+        <edge source="89" target="97">
+            <data key="SUID">161</data>
+            <data key="shared name">TGFBR1 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12957874]</data>
+        </edge>
+        <edge source="89" target="108">
+            <data key="SUID">160</data>
+            <data key="shared name">TGFBR1 (stimulation) CDC42</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) CDC42</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) CDC42</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[19114990]</data>
+        </edge>
+        <edge source="89" target="81">
+            <data key="SUID">159</data>
+            <data key="shared name">TGFBR1 (stimulation) PARD6A</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) PARD6A</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) PARD6A</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[19114990]</data>
+        </edge>
+        <edge source="89" target="99">
+            <data key="SUID">158</data>
+            <data key="shared name">TGFBR1 (stimulation) HIPK2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) HIPK2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) HIPK2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17729308]</data>
+        </edge>
+        <edge source="89" target="96">
+            <data key="SUID">157</data>
+            <data key="shared name">TGFBR1 (stimulation) ACVRL1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">TGFBR1 (stimulation) ACVRL1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">TGFBR1 (stimulation) ACVRL1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[14580334]</data>
+        </edge>
+        <edge source="88" target="97">
+            <data key="SUID">156</data>
+            <data key="shared name">ESR1 (unknown) SMAD3</data>
+            <data key="shared interaction">unknown</data>
+            <data key="name">ESR1 (unknown) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">unknown</data>
+            <data key="canonicalName">ESR1 (unknown) SMAD3</data>
+            <data key="effect">unknown</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11555647, 20207742, 11555647]</data>
+        </edge>
+        <edge source="86" target="61">
+            <data key="SUID">155</data>
+            <data key="shared name">KAT2A (inhibition) SMURF1</data>
+            <data key="shared interaction">inhibition</data>
+            <data key="name">KAT2A (inhibition) SMURF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">inhibition</data>
+            <data key="canonicalName">KAT2A (inhibition) SMURF1</data>
+            <data key="effect">inhibition</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12408818]</data>
+        </edge>
+        <edge source="86" target="102">
+            <data key="SUID">154</data>
+            <data key="shared name">KAT2A (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">KAT2A (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">KAT2A (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12408818]</data>
+        </edge>
+        <edge source="86" target="95">
+            <data key="SUID">153</data>
+            <data key="shared name">KAT2A (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">KAT2A (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">KAT2A (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11058129, 15009097]</data>
+        </edge>
+        <edge source="86" target="97">
+            <data key="SUID">152</data>
+            <data key="shared name">KAT2A (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">KAT2A (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">KAT2A (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[11058129, 15009097]</data>
+        </edge>
+        <edge source="84" target="108">
+            <data key="SUID">151</data>
+            <data key="shared name">ITSN1 (stimulation) CDC42</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">ITSN1 (stimulation) CDC42</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">ITSN1 (stimulation) CDC42</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[12006984, 12006984, 11584276, 15824104]</data>
+        </edge>
+        <edge source="83" target="97">
+            <data key="SUID">150</data>
+            <data key="shared name">EP300 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">EP300 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">EP300 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[21269274, 11058129, 10575014, 15133024, 20564330, 9679056, 9679056, 10497242]</data>
+        </edge>
+        <edge source="83" target="95">
+            <data key="SUID">149</data>
+            <data key="shared name">EP300 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">EP300 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">EP300 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">predicted to be direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[21269274, 11371641, 11264182, 11371641]</data>
+        </edge>
+        <edge source="83" target="102">
+            <data key="SUID">148</data>
+            <data key="shared name">EP300 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">EP300 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">EP300 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[21269274, 12408818, 12408818]</data>
+        </edge>
+        <edge source="81" target="61">
+            <data key="SUID">147</data>
+            <data key="shared name">PARD6A (stimulation) SMURF1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PARD6A (stimulation) SMURF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PARD6A (stimulation) SMURF1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[19114990, 21262463]</data>
+        </edge>
+        <edge source="79" target="109">
+            <data key="SUID">146</data>
+            <data key="shared name">EPHB1 (stimulation) NCK1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">EPHB1 (stimulation) NCK1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">EPHB1 (stimulation) NCK1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[9430661, 9430661, 9430661]</data>
+        </edge>
+        <edge source="78" target="102">
+            <data key="SUID">145</data>
+            <data key="shared name">CTNNB1 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CTNNB1 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CTNNB1 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[15684397, 15684397, 15684397, 15684397]</data>
+        </edge>
+        <edge source="78" target="80">
+            <data key="SUID">144</data>
+            <data key="shared name">CTNNB1 (stimulation) TCF4</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CTNNB1 (stimulation) TCF4</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CTNNB1 (stimulation) TCF4</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[9308964, 15331612, 11713476, 17412698, 18281465]</data>
+        </edge>
+        <edge source="78" target="85">
+            <data key="SUID">143</data>
+            <data key="shared name">CTNNB1 (stimulation) LEF1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CTNNB1 (stimulation) LEF1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CTNNB1 (stimulation) LEF1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[14638683, 8757136, 10890911, 16510874, 16510875]</data>
+        </edge>
+        <edge source="77" target="89">
+            <data key="SUID">142</data>
+            <data key="shared name">BAMBI (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">BAMBI (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">BAMBI (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10519551]</data>
+        </edge>
+        <edge source="77" target="96">
+            <data key="SUID">141</data>
+            <data key="shared name">BAMBI (stimulation) ACVRL1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">BAMBI (stimulation) ACVRL1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">BAMBI (stimulation) ACVRL1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10519551]</data>
+        </edge>
+        <edge source="74" target="95">
+            <data key="SUID">138</data>
+            <data key="shared name">PML (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PML (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PML (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[15356634]</data>
+        </edge>
+        <edge source="74" target="97">
+            <data key="SUID">137</data>
+            <data key="shared name">PML (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PML (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PML (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[15356634, 15356634, 15356634]</data>
+        </edge>
+        <edge source="74" target="91">
+            <data key="SUID">136</data>
+            <data key="shared name">PML (stimulation) ZFYVE9</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PML (stimulation) ZFYVE9</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PML (stimulation) ZFYVE9</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[15356634, 15356634, 15356634]</data>
+        </edge>
+        <edge source="73" target="102">
+            <data key="SUID">135</data>
+            <data key="shared name">UCHL5 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">UCHL5 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">UCHL5 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[16027725, 16027725, 16027725]</data>
+        </edge>
+        <edge source="73" target="89">
+            <data key="SUID">134</data>
+            <data key="shared name">UCHL5 (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">UCHL5 (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">UCHL5 (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17052192]</data>
+        </edge>
+        <edge source="69" target="78">
+            <data key="SUID">133</data>
+            <data key="shared name">SMURF2 (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF2 (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF2 (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16950122]</data>
+        </edge>
+        <edge source="69" target="94">
+            <data key="SUID">132</data>
+            <data key="shared name">SMURF2 (stimulation) SMAD1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF2 (stimulation) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF2 (stimulation) SMAD1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[11016919, 11016919, 11016919, 15221015, 11158580, 11158580, 14701756, 11016919, 15231748, 14701756]</data>
+        </edge>
+        <edge source="69" target="95">
+            <data key="SUID">131</data>
+            <data key="shared name">SMURF2 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF2 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF2 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[14507671, 11016919, 11016919, 15221015, 11158580, 11158580, 19620243, 11016919, 15231748]</data>
+        </edge>
+        <edge source="67" target="102">
+            <data key="SUID">130</data>
+            <data key="shared name">RNF111 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RNF111 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RNF111 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[14657019, 14657019, 14657019]</data>
+        </edge>
+        <edge source="67" target="97">
+            <data key="SUID">129</data>
+            <data key="shared name">RNF111 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RNF111 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RNF111 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17341133, 18950738, 14657019]</data>
+        </edge>
+        <edge source="67" target="95">
+            <data key="SUID">128</data>
+            <data key="shared name">RNF111 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RNF111 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RNF111 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17341133]</data>
+        </edge>
+        <edge source="65" target="95">
+            <data key="SUID">127</data>
+            <data key="shared name">RANBP3 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RANBP3 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RANBP3 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[20704570]</data>
+        </edge>
+        <edge source="65" target="97">
+            <data key="SUID">126</data>
+            <data key="shared name">RANBP3 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RANBP3 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RANBP3 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[20704570]</data>
+        </edge>
+        <edge source="65" target="78">
+            <data key="SUID">125</data>
+            <data key="shared name">RANBP3 (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">RANBP3 (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">RANBP3 (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16314428]</data>
+        </edge>
+        <edge source="64" target="95">
+            <data key="SUID">124</data>
+            <data key="shared name">PPP2CA (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PPP2CA (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PPP2CA (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[20704570]</data>
+        </edge>
+        <edge source="64" target="97">
+            <data key="SUID">123</data>
+            <data key="shared name">PPP2CA (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">PPP2CA (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">PPP2CA (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[20704570]</data>
+        </edge>
+        <edge source="63" target="102">
+            <data key="SUID">122</data>
+            <data key="shared name">SIRT1 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SIRT1 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SIRT1 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[17098745, 17098745]</data>
+        </edge>
+        <edge source="63" target="66">
+            <data key="SUID">121</data>
+            <data key="shared name">SIRT1 (stimulation) FOXO4</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SIRT1 (stimulation) FOXO4</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SIRT1 (stimulation) FOXO4</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10102273, 15126506]</data>
+        </edge>
+        <edge source="62" target="97">
+            <data key="SUID">120</data>
+            <data key="shared name">CREB1 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CREB1 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CREB1 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[16862174]</data>
+        </edge>
+        <edge source="62" target="78">
+            <data key="SUID">119</data>
+            <data key="shared name">CREB1 (stimulation) CTNNB1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CREB1 (stimulation) CTNNB1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CREB1 (stimulation) CTNNB1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10775268]</data>
+        </edge>
+        <edge source="62" target="66">
+            <data key="SUID">118</data>
+            <data key="shared name">CREB1 (stimulation) FOXO4</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">CREB1 (stimulation) FOXO4</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">CREB1 (stimulation) FOXO4</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[15126506]</data>
+        </edge>
+        <edge source="61" target="95">
+            <data key="SUID">117</data>
+            <data key="shared name">SMURF1 (stimulation) SMAD2</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF1 (stimulation) SMAD2</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF1 (stimulation) SMAD2</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[10458166, 15221015, 20207742]</data>
+        </edge>
+        <edge source="61" target="97">
+            <data key="SUID">116</data>
+            <data key="shared name">SMURF1 (stimulation) SMAD3</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF1 (stimulation) SMAD3</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF1 (stimulation) SMAD3</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[10458166, 15221015]</data>
+        </edge>
+        <edge source="61" target="101">
+            <data key="SUID">115</data>
+            <data key="shared name">SMURF1 (stimulation) SMAD6</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF1 (stimulation) SMAD6</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF1 (stimulation) SMAD6</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Biogrid, Signalink 2.0 (manual curation)]</data>
+            <data key="reference">[15123739, 15221015, 11278251]</data>
+        </edge>
+        <edge source="61" target="102">
+            <data key="SUID">114</data>
+            <data key="shared name">SMURF1 (stimulation) SMAD7</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF1 (stimulation) SMAD7</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF1 (stimulation) SMAD7</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[HPRD, Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[12408818, 14722617, 16720724, 15221015, 11278251, 11278251, 12519765, 12151385]</data>
+        </edge>
+        <edge source="61" target="89">
+            <data key="SUID">113</data>
+            <data key="shared name">SMURF1 (stimulation) TGFBR1</data>
+            <data key="shared interaction">stimulation</data>
+            <data key="name">SMURF1 (stimulation) TGFBR1</data>
+            <data key="selected">false</data>
+            <data key="interaction">stimulation</data>
+            <data key="canonicalName">SMURF1 (stimulation) TGFBR1</data>
+            <data key="effect">stimulation</data>
+            <data key="directness">direct</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[12519765, 14657019, 12857866]</data>
+        </edge>
+        <edge source="61" target="94">
+            <data key="SUID">112</data>
+            <data key="shared name">SMURF1 (unknown) SMAD1</data>
+            <data key="shared interaction">unknown</data>
+            <data key="name">SMURF1 (unknown) SMAD1</data>
+            <data key="selected">false</data>
+            <data key="interaction">unknown</data>
+            <data key="canonicalName">SMURF1 (unknown) SMAD1</data>
+            <data key="effect">unknown</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[14711801, 15221015, 17289590, 14701756]</data>
+        </edge>
+        <edge source="61" target="76">
+            <data key="SUID">111</data>
+            <data key="shared name">SMURF1 (unknown) SMAD5</data>
+            <data key="shared interaction">unknown</data>
+            <data key="name">SMURF1 (unknown) SMAD5</data>
+            <data key="selected">false</data>
+            <data key="interaction">unknown</data>
+            <data key="canonicalName">SMURF1 (unknown) SMAD5</data>
+            <data key="effect">unknown</data>
+            <data key="directness">indirect</data>
+            <data key="direction">directed</data>
+            <data key="layer">Interaction between pathway members</data>
+            <data key="interaction_type">PPI directed</data>
+            <data key="source">[Signalink 2.0 (manual curation), Biogrid]</data>
+            <data key="reference">[14711801, 18641638, 15221015, 12857866]</data>
+        </edge>
+    </graph>
+</graphml>
