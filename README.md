@@ -1,2 +1,3 @@
-# PPKE_course
- Supplementary data and scripts for the PPKE course
+# PPKE course 2021
+
+This repository contains the supplementary data, handouts and example scripts accompanying my talk on network visualization.
