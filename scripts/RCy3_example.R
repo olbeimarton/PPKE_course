@@ -34,7 +34,7 @@ selectNodes(nodes=c('BTRC', 'SMAD5', 'PML'), by.col = 'name')
 setNodeSizeBypass(c('BTRC', 'SMAD5', 'PML'), new.sizes = 100)
 
 # clear bypass
-clearNodePropertyBypass('NODE_SIZE')
+clearNodePropertyBypass(c('BTRC', 'SMAD5', 'PML'), 'NODE_SIZE')
 
 # colour nodes by 'expression'
 setNodeColorMapping(table.column = 'Expression1',
